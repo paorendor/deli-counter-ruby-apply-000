@@ -21,11 +21,11 @@ def take_a_number (katz_deli)
   num = 0
  
   katz_deli << num
-   num += 1
+   
   puts "Welcome #{num}, You #{katz_deli.length} in line."
   
+  num += 1
  
-  
 end 
 
 def line (katz_deli)
