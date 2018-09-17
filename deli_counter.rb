@@ -17,9 +17,9 @@ def now_serving (katz_deli)
   
 end
 
-def take_a_number (katz_deli, string)
+def take_a_number (katz_deli, number)
   
-  katz_deli << string
+  katz_deli << number
   
   puts "You are at number #{katz_deli.length} in line."
   
