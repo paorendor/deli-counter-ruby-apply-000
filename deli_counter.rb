@@ -17,15 +17,16 @@ def now_serving (katz_deli)
   
 end
 
-def take_a_number (katz_deli, number)
+def take_a_number (katz_deli)
   num = 0
-
-  
-  katz_deli << number
+ 
+  katz_deli << num
   
   puts "Welcome #{num}, You #{katz_deli.length} in line."
   
-end
+  num += 1
+  
+end 
 
 def line (katz_deli)
   
