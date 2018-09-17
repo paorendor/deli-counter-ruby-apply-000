@@ -18,10 +18,12 @@ def now_serving (katz_deli)
 end
 
 def take_a_number (katz_deli, number)
+  num = 0
+
   
   katz_deli << number
   
-  puts "You are at number #{katz_deli.length} in line."
+  puts "Welcome #{num}, You #{katz_deli.length} in line."
   
 end
 
